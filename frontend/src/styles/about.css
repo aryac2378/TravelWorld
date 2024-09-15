@@ -1,0 +1,92 @@
+/* General Section Styles */
+section {
+   margin: 0 auto;
+   padding: 2rem;
+ }
+ 
+ /* Container Styles */
+ .container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 1rem;
+ }
+ 
+ /* Row Styles */
+ .row {
+   display: flex;
+   flex-wrap: wrap;
+   margin: -0.5rem; /* Align with Bootstrap's gutter */
+ }
+ 
+ /* Column Styles */
+ .col-lg-3, .col-lg-9, .col-lg-12 {
+   padding: 0.5rem;
+ }
+ 
+ /* Services Section Styles */
+ .services__subtitle {
+   font-size: 1.5rem;
+   font-weight: 500;
+   color: #ee6e6e;
+   font-family: var(--subtitle-font-name);
+   margin-bottom: 0.5rem;
+ }
+ 
+ .services__title {
+   font-size: 2rem;
+   font-weight: 500;
+   margin-bottom: 1.5rem;
+ }
+ 
+ .service-list {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+   gap: 1.5rem; /* Space between cards */
+ }
+ 
+ /* Featured Tours Section Styles */
+ .section__subtitle {
+   font-size: 1.5rem;
+   font-weight: 500;
+   color: #333;
+ }
+ 
+ .featured__tour-title {
+   font-size: 2rem;
+   font-weight: 500;
+   color: #000;
+   margin: 1rem 0;
+ }
+ 
+ h4 {
+   color: red; /* Style for the error message */
+   text-align: center;
+   margin-top: 1rem;
+ }
+ 
+ /* Gallery Section Styles */
+ .gallery__title {
+   font-size: 1.6rem;
+   margin-top: 0.8rem;
+   margin-bottom: 2.5rem;
+ }
+ 
+ /* Responsive Adjustments */
+ @media (max-width: 768px) {
+   .container {
+     padding: 0 0.5rem;
+   }
+   
+   .services__title {
+     font-size: 1.5rem;
+   }
+   
+   .featured__tour-title {
+     font-size: 1.5rem;
+   }
+   
+   .gallery__title {
+     font-size: 1.4rem;
+   }
+ }
+ 

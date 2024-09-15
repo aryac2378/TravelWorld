@@ -1,0 +1,24 @@
+.tour-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Space between tour cards */
+    padding: 16px;
+  }
+  
+  .tour-card-wrapper {
+    flex: 1 1 calc(25% - 16px); /* Adjust based on the number of columns you want */
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .tour-card-wrapper {
+      flex: 1 1 calc(33.33% - 16px); /* Adjust for medium screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .tour-card-wrapper {
+      flex: 1 1 calc(50% - 16px); /* Adjust for small screens */
+    }
+  }
+  

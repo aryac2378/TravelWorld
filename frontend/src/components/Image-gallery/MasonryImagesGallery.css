@@ -1,0 +1,15 @@
+/* MasonryImagesGallery.css */
+.masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Space between images */
+  }
+  
+  .masonry__img {
+    width: 100%;
+    max-width: calc(25% - 1rem); /* Adjust based on the number of columns */
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  

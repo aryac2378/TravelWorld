@@ -1,0 +1,43 @@
+/* thank-you.css */
+.thank-you-section {
+   padding: 5rem 0; /* Adjust padding as needed */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Full viewport height */
+}
+
+.thank-you-container {
+   text-align: center;
+}
+
+.thank-you-icon i {
+   font-size: 4rem; /* Font size for the icon */
+   color: green;    /* Green color for the icon */
+}
+
+.thank-you-title {
+   font-size: 2.5rem; /* Font size for the main title */
+   font-family: var(--subtitle-font-name); /* Font family as per your design */
+   margin-bottom: 1rem; /* Space below the title */
+}
+
+.thank-you-subtitle {
+   font-size: 1.5rem; /* Font size for the subtitle (you can adjust this) */
+   margin-bottom: 2rem; /* Space below the subtitle */
+}
+
+.thank-you-button {
+   display: inline-block;
+   padding: 0.7rem 1.5rem; /* Adjust padding for the button */
+   background-color: #007bff; /* Primary color for the button */
+   color: #fff;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 1rem;
+   transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.thank-you-button:hover {
+   background-color: #0056b3; /* Darker shade for hover effect */
+}

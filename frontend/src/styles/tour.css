@@ -1,0 +1,27 @@
+/* Ensure that the card-slider-container has relative positioning 
+ .card-slider-container {
+  position: relative;
+  width: 100%; 
+} 
+
+
+.card-slider {
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  width: 25%; 
+  height: 25%; 
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  box-sizing: border-box; 
+  overflow: hidden;
+  z-index: 1; 
+}
+
+
+.card-slider p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333; 
+} */
